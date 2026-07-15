@@ -55,10 +55,13 @@ def test_skills_unknown_category_reports_available():
     assert "available_categories" in result
 
 
-def test_role_fit_has_pitch_and_reasons():
+def test_role_fit_maps_requirements_to_evidence():
     fit = tools.get_role_fit()
+    assert fit["role"] == "AI Engineer"
     assert fit["pitch"]
-    assert len(fit["reasons"]) >= 4
+    assert len(fit["requirement_mapping"]) >= 5
+    assert all(m["requirement"] and m["evidence"] for m in fit["requirement_mapping"])
+    assert fit["beyond_the_requirements"]
 
 
 def test_recommendation_quotes_present():

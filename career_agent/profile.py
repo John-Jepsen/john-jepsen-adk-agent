@@ -195,34 +195,69 @@ SKILLS = {
 }
 
 ROLE_FIT = {
+    "role": "AI Engineer",
     "pitch": (
-        "John is the rare engineer who has already done the job most AI "
-        "engineering roles describe: he has designed, built, shipped, and "
-        "operated LLM-powered agents in production — not demos. His agentic "
-        "learning companion handles 1,000+ real user sessions a week, his "
-        "CrewAI program-manager agent runs weekly analytics for school "
-        "teams, and his AI code-evaluation system has assessed 3,000+ "
-        "applicants."
+        "This AI Engineer role asks for someone who can design, build, and "
+        "deploy AI agents — and John has already done exactly that in "
+        "production, repeatedly. His agentic learning companion handles "
+        "1,000+ real user sessions a week, his CrewAI program-manager agent "
+        "runs weekly analytics for school teams, his AI code-evaluation "
+        "system has assessed 3,000+ applicants, and the agent answering "
+        "this question is his work too: a Google ADK agent he built and "
+        "deployed to Cloud Run for this application."
     ),
-    "reasons": [
-        "Production AI agents, not prototypes: multi-agent orchestration "
-        "(CrewAI), RAG pipelines, vector search, and LLM integrations "
-        "running in systems with 10,000+ users.",
-        "Full-stack ownership: he takes features from architecture through "
-        "CI/CD (Docker, Kubernetes, GitHub Actions) to monitoring in "
-        "production, on GCP and AWS.",
-        "Real ML depth beneath the LLM layer: deep RL in PyTorch, calibrated "
-        "XGBoost forecasting, adversarial ML research, and rigorous "
-        "evaluation practice (MLflow, DVC).",
-        "He can teach what he builds: he wrote and taught an entire LLM/RAG "
-        "curriculum across 7 campuses — a strong signal of communication "
-        "skill and true depth of understanding.",
+    "requirement_mapping": [
+        {
+            "requirement": "Agent development",
+            "evidence": "Built and operates multiple production agents: an "
+            "agentic learning companion (1,000+ sessions/week), a "
+            "CrewAI multi-agent program manager, an AI code-evaluation "
+            "interpreter (3,000+ applicants assessed), and this Google "
+            "ADK career agent.",
+        },
+        {
+            "requirement": "Agent deployment at scale",
+            "evidence": "Ships agents into systems serving 10,000+ users "
+            "with Docker, Kubernetes, GitHub Actions CI/CD, and "
+            "monitoring; deployed this agent to Google Cloud Run on "
+            "Vertex AI.",
+        },
+        {
+            "requirement": "ADK experience",
+            "evidence": "This submission is a working ADK agent — Gemini "
+            "root agent, function tools over structured data, tests, "
+            "CI, and a live Cloud Run deployment, built end to end by "
+            "John.",
+        },
+        {
+            "requirement": "Python",
+            "evidence": "Primary language across 5+ years: agents, FastAPI "
+            "services, data pipelines, PyTorch deep RL, and an "
+            "open-source pip-installable security library (qkdsec).",
+        },
+        {
+            "requirement": "LLM and external tool integration",
+            "evidence": "RAG pipelines, vector search, prompt engineering, "
+            "multi-agent orchestration, and LLM-integrated product "
+            "features; he also wrote and taught an LLM/RAG curriculum "
+            "across 7 campuses.",
+        },
+        {
+            "requirement": "Cloud deployment (GCP/AWS)",
+            "evidence": "Production experience on GCP and AWS: Cloud Run, "
+            "Vertex AI, GKE-deployed services, CI/CD pipelines, "
+            "monitoring and observability.",
+        },
+    ],
+    "beyond_the_requirements": [
+        "Real ML depth beneath the LLM layer: deep RL in PyTorch, "
+        "calibrated XGBoost forecasting, adversarial ML research, and "
+        "rigorous evaluation practice (MLflow, DVC).",
         "Leadership that scales: Director of Programming at Qwasar plus 10 "
         "years managing teams before engineering — he raises the bar for "
         "the people around him.",
-        "This submission itself: he learned the Google ADK and shipped this "
-        "working, deployed agent for the application — that is how he "
-        "approaches new tools.",
+        "He learns fast and ships: this ADK agent went from zero to "
+        "deployed, tested, and documented as part of a single application.",
     ],
 }
 
