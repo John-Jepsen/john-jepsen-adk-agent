@@ -45,7 +45,7 @@ yourself and listing the kinds of questions you can answer.
 
 root_agent = Agent(
     name="john_jepsen_career_agent",
-    model="gemini-2.5-flash",
+    model="gemini-2.5-flash-lite",
     description=(
         "Interactive career agent for John Jepsen — answers hiring-team "
         "questions about his background, experience, projects, skills, "
