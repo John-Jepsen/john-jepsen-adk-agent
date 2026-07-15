@@ -195,58 +195,65 @@ SKILLS = {
 }
 
 ROLE_FIT = {
-    "role": "AI Engineer",
+    "role": "AI Engineer (Forward Deployed) at Global Technology Solutions",
     "pitch": (
-        "This AI Engineer role asks for someone who can design, build, and "
-        "deploy AI agents — and John has already done exactly that in "
-        "production, repeatedly. His agentic learning companion handles "
-        "1,000+ real user sessions a week, his CrewAI program-manager agent "
-        "runs weekly analytics for school teams, his AI code-evaluation "
-        "system has assessed 3,000+ applicants, and the agent answering "
-        "this question is his work too: a Google ADK agent he built and "
-        "deployed to Cloud Run for this application."
+        "A forward-deployed AI engineer has to do three things at once: "
+        "build production-grade AI quickly, work on the client's stack, and "
+        "communicate with non-engineers so delivery stays tied to business "
+        "value. John has done all three for years — and this agent is the "
+        "proof for the stack: he built and deployed it with the Google "
+        "Agent Development Kit, Gemini, Vertex AI, and Cloud Run "
+        "specifically for this application."
     ),
     "requirement_mapping": [
         {
-            "requirement": "Agent development",
-            "evidence": "Built and operates multiple production agents: an "
-            "agentic learning companion (1,000+ sessions/week), a "
-            "CrewAI multi-agent program manager, an AI code-evaluation "
-            "interpreter (3,000+ applicants assessed), and this Google "
-            "ADK career agent.",
+            "requirement": "Google Cloud AI stack (Gemini, Vertex AI, Cloud Run, ADK)",
+            "evidence": "The agent answering this question runs on exactly "
+            "that stack — an ADK root agent on Gemini via Vertex AI, "
+            "deployed to Cloud Run with tests and CI. John also has "
+            "production GCP and AWS experience with containerized "
+            "deployment and monitoring.",
         },
         {
-            "requirement": "Agent deployment at scale",
-            "evidence": "Ships agents into systems serving 10,000+ users "
-            "with Docker, Kubernetes, GitHub Actions CI/CD, and "
-            "monitoring; deployed this agent to Google Cloud Run on "
-            "Vertex AI.",
+            "requirement": "Rapid prototyping that reaches production",
+            "evidence": "Built a college application platform from 0 to "
+            "2,000+ users; shipped an agentic learning companion now "
+            "handling 1,000+ sessions/week; took this ADK agent from "
+            "zero to a live, tested deployment within a single "
+            "application cycle.",
         },
         {
-            "requirement": "ADK experience",
-            "evidence": "This submission is a working ADK agent — Gemini "
-            "root agent, function tools over structured data, tests, "
-            "CI, and a live Cloud Run deployment, built end to end by "
-            "John.",
+            "requirement": "Client-facing delivery and communication",
+            "evidence": "10 years managing client relationships and 15 "
+            "direct reports in sales before engineering, then years "
+            "working directly with customers, educators, and business "
+            "stakeholders at Qwasar. He wrote and taught an LLM/RAG "
+            "curriculum across 7 campuses — explaining complex AI "
+            "systems clearly is core to how he works.",
         },
         {
-            "requirement": "Python",
-            "evidence": "Primary language across 5+ years: agents, FastAPI "
-            "services, data pipelines, PyTorch deep RL, and an "
-            "open-source pip-installable security library (qkdsec).",
+            "requirement": "Production AI agents and LLM integration",
+            "evidence": "Multiple agents in production: the learning "
+            "companion (1,000+ sessions/week), a CrewAI multi-agent "
+            "program manager for weekly analytics and intervention "
+            "reporting, and an AI code-evaluation interpreter that has "
+            "assessed 3,000+ applicants. Deep hands-on RAG, vector "
+            "search, and prompt engineering.",
         },
         {
-            "requirement": "LLM and external tool integration",
-            "evidence": "RAG pipelines, vector search, prompt engineering, "
-            "multi-agent orchestration, and LLM-integrated product "
-            "features; he also wrote and taught an LLM/RAG curriculum "
-            "across 7 campuses.",
+            "requirement": "Python, APIs, and data platforms",
+            "evidence": "5+ years of Python services, REST APIs, data "
+            "pipelines, and analytics infrastructure on PostgreSQL; "
+            "plus dashboards, automated reporting, and encrypted "
+            "data-lake workflows with CI/CD integration.",
         },
         {
-            "requirement": "Cloud deployment (GCP/AWS)",
-            "evidence": "Production experience on GCP and AWS: Cloud Run, "
-            "Vertex AI, GKE-deployed services, CI/CD pipelines, "
-            "monitoring and observability.",
+            "requirement": "Concept-to-production ownership",
+            "evidence": "As Director of Programming he owned architecture, "
+            "delivery, reliability, and roadmap execution across "
+            "multiple live products serving 10,000+ users, cutting "
+            "production errors ~40% through better jobs, monitoring, "
+            "and database performance.",
         },
     ],
     "beyond_the_requirements": [
@@ -256,8 +263,10 @@ ROLE_FIT = {
         "Leadership that scales: Director of Programming at Qwasar plus 10 "
         "years managing teams before engineering — he raises the bar for "
         "the people around him.",
-        "He learns fast and ships: this ADK agent went from zero to "
-        "deployed, tested, and documented as part of a single application.",
+        "His COO's reference letter says it directly: he 'maintained a "
+        "product-focused mindset that kept technical decisions grounded in "
+        "real user needs' — exactly the instinct a forward-deployed "
+        "engineer needs.",
     ],
 }
 

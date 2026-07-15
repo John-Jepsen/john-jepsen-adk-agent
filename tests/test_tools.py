@@ -57,7 +57,7 @@ def test_skills_unknown_category_reports_available():
 
 def test_role_fit_maps_requirements_to_evidence():
     fit = tools.get_role_fit()
-    assert fit["role"] == "AI Engineer"
+    assert "Forward Deployed" in fit["role"]
     assert fit["pitch"]
     assert len(fit["requirement_mapping"]) >= 5
     assert all(m["requirement"] and m["evidence"] for m in fit["requirement_mapping"])
