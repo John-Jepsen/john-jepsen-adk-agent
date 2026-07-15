@@ -2,7 +2,7 @@
 
 An interactive AI agent, built with the [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/), that lets a hiring team learn about me: my background, AI and software engineering experience, projects, technical skills, and why I fit the role.
 
-**Live agent:** _deployment link goes here_
+**Live agent:** https://john-jepsen-career-agent-913187973023.us-central1.run.app
 **Repository:** https://github.com/John-Jepsen/john-jepsen-adk-agent
 
 Ask it things like:
